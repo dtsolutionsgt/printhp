@@ -41,7 +41,6 @@ public class MenuActivity extends AppCompatActivity {
 
         lbl1 = (TextView) findViewById(R.id.textView);lbl1.setText("Imprimiendo . . .");
 
-
         Handler mtimer = new Handler();
         Runnable mrunner=new Runnable() {
             @Override
